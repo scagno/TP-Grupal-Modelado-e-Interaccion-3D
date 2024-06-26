@@ -1,4 +1,4 @@
-# TP Modelado e Interaccion 3D
+# TP Grupal Modelado e Interaccion 3D
  
 Trabajo Practico grupal Modelado e Interaccion 3D.
 
