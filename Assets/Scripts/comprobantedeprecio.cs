@@ -9,15 +9,21 @@ public class comprobantedeprecio : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Random random = new Random();
+
+        DineroDisponible = Random.Range(1, 1000);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown(Btn-Alcanza-y-Sobra) alimentos<DineroDisponible)
-        {
 
+    }    void AlcanzaYSobra()
+    {
+        if (alimentos < DineroDisponible)
+        {
+            
         }
     }
 }
