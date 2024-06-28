@@ -27,8 +27,8 @@ public class SpawnerAlimentos : MonoBehaviour
     {
         alimento1 = Instantiate(GetRandomAlimento(), position1, Quaternion.identity).GetComponent<Producto>();
         alimento2 = Instantiate(GetRandomAlimento(), position2, Quaternion.identity).GetComponent<Producto>();
-        text1.text = alimento1.precio.ToString();
-        text2.text = alimento2.precio.ToString();
+        text1.text = "$" + alimento1.precio.ToString();
+        text2.text = "$" + alimento2.precio.ToString();
     }
 
     public GameObject GetRandomAlimento()
